@@ -118,13 +118,20 @@
                                     <action selector="newGame:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Xrl-X7-xa3"/>
                                 </connections>
                             </button>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="saf-Xr-LXH">
+                                <rect key="frame" x="191" y="273" width="32" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" red="0.6098517616568615" green="0.77446974754100006" blue="0.80547757492851968" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
                             <constraint firstItem="OT2-FG-S3D" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="170" id="9KO-Ft-P8A"/>
+                            <constraint firstItem="saf-Xr-LXH" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Bnl-XU-LNQ"/>
                             <constraint firstItem="ymz-69-opf" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="JLT-og-XZl"/>
                             <constraint firstItem="zub-JN-NCg" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Yk3-UX-wP1"/>
+                            <constraint firstItem="saf-Xr-LXH" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="185" id="cc8-cW-7BP"/>
                             <constraint firstItem="ngu-Yc-bzw" firstAttribute="top" secondItem="ymz-69-opf" secondAttribute="bottom" constant="24" id="esD-cP-pG4"/>
                             <constraint firstItem="ngu-Yc-bzw" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="g4a-PT-Y27"/>
                             <constraint firstItem="ymz-69-opf" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="oAo-em-zkf"/>
