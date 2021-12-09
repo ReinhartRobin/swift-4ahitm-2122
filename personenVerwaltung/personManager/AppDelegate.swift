@@ -1,10 +1,3 @@
-//
-//  AppDelegate.swift
-//  personenVerwaltung
-//
-//  Created by Reinhart Robin on 26.11.21.
-//
-
 import UIKit
 
 @main

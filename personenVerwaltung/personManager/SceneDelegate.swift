@@ -1,10 +1,3 @@
-//
-//  SceneDelegate.swift
-//  personenVerwaltung
-//
-//  Created by Reinhart Robin on 26.11.21.
-//
-
 import UIKit
 
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
